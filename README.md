@@ -48,7 +48,7 @@ A análise dos boxplots acima revelou tendências muito claras:
 
 Para entender *por que* o modelo toma suas decisões, foi utilizada a biblioteca SHAP.
 
-![Gráfico de Barras SHAP](images\shap_summary_plot_beeswarm.png)
+![Gráfico de Barras SHAP](/images/shap_summary_plot_beeswarm.png)
 *Gráfico gerado a partir do notebook `02_logistic_regression_analysis.ipynb`.*
 
 O gráfico de barras SHAP confirmou as descobertas da EDA de forma quantitativa. Ele mostra que o tempo de uso da internet e o tempo no site são os fatores de maior impacto, seguidos pela idade do usuário.
